@@ -1,20 +1,25 @@
 {
   "name": "@whcg/whcg-period-discounter",
-  "version": "1.0.0",
+  "version": "1.2.0",
+  "description": "```html <whcg-period-discounter></whcg-period-discounter> ```",
   "main": "dist/index.js",
   "module": "dist/index.es6.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+     "build": "rollup -c"
   },
-  "author": "whcg",
-  "license": "ISC",
-  "description": "",
   "files": [
-    "dist"
+     "dist",
+     "theme"
   ],
-  "devDependencies": {
-    "@polymer/polymer": "*"
+ 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whcgx/whcg-period-discounter.git"
   },
-  "dependencies": {}
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whcgx/whcg-period-discounter/issues"
+  },
+  "homepage": "https://github.com/whcgx/whcg-period-discounter#readme"
 }
